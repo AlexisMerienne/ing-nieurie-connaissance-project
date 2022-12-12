@@ -1,0 +1,130 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "Base-ADEME-Bilans-GES.csv",
+  "tableSchema": {
+    "aboutUrl": "http://example.org/entreprises/{siret}",
+    "columns": [
+      {
+      "titles": "ID du Bilan GES",
+      "suppressOutput": true
+      },{
+        "titles" : "Type de structure",
+        "suppressOutput": true
+      },{
+        "titles" : "Type de collectivité",
+        "suppressOutput": true
+      },{
+        "titles" : "Raison sociale / Nom de l'entité",
+        "propertyUrl" : "schema:legalName"
+      },{
+        "titles" : "Année de reporting",
+        "suppressOutput": true
+      },{
+        "titles": "Date de publication",
+        "suppressOutput": true
+      },{
+        "titles" : "Mode de consolidation",
+        "suppressOutput": true
+      },{
+        "titles" : "Descriptif sommaire de l'activité",
+        "suppressOutput": true
+      },{
+      "titles": "SIREN",
+      "name": "siret",
+      "propertyUrl":"http://projet.fr/schema/siren"
+    },{
+      "titles" : "Libellé",
+        "suppressOutput": true
+    },{
+      "titles" : "Région",
+      "propertyUrl" : "schema:location"
+    },{
+      "titles" : "Ville",
+      "propertyUrl" : "schema:address"
+    },{
+      "titles":"Emissions publication P1 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles":"Emissions publication P2 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+        
+    },
+    {
+      "titles" : "Emissions publication P3 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles":"Emissions publication P4 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles": "Emissions publication P5 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles" : "Emissions publication P6 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles" : "Emissions publication P7 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles" : "Emissions publication P8 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles" : "Emissions publication P9 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },
+    {
+      "titles" : "Emissions publication P10 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P11 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P12 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P13 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P14 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P15 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P16 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P17 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P18 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P19 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P20 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P21 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P22 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "titles" : "Emissions publication P23 - tCO2e",
+      "propertyUrl" : "schema:emissionsCO2"
+    },{
+      "virtual": true,
+      "propertyUrl": "rdf:type",
+      "valueUrl": "schema:Organization"
+    }
+    ]
+  }
+}

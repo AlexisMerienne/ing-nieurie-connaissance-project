@@ -1,0 +1,21 @@
+@prefix schema: <http://schema.org/>
+CONSTRUCT {
+
+  ?organization a schema:Organization[
+     schema:numberOfEmployees ?nbremployee;
+     schema:legalName ?denominationUniteLegale;
+     schema:startDate ?dateDebut;
+     schema:endDate ?dateFin
+  ].
+
+} WHERE {
+
+  []
+   api:trancheEffectifsUniteLegale ?nbremployee;
+   api:periodesUniteLegale [
+    api:denominationUniteLegale ?denominationUniteLegale;
+    api:dateFin ?dateFin;
+    api:dateDebut ?dateDebut;
+    ].
+   
+}
